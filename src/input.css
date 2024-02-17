@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-family: "IRANsans";
+    src: url(../public/font/IRANsans.ttf);
+    font-display: swap;
+  }
+}
+@layer components {
+    .mainBackground{
+        background: url("./image/coffee.jpg");
+        background-position: center ;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }     
+}
