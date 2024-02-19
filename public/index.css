@@ -554,9 +554,17 @@ video {
 
 .mainBackground{
   background: url("./image/coffee.jpg");
-  background-position: center ;
+  background-position:  0 -880px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.mySlides {
+  display: none;
+}
+
+.active, .dot:hover {
+  background-color: #717171 !important;
 }
 
 .absolute {
@@ -571,40 +579,162 @@ video {
   inset: 0px;
 }
 
-.mt-40 {
-  margin-top: 10rem;
+.bottom-5 {
+  bottom: 1.25rem;
 }
 
-.mt-\[70px\] {
-  margin-top: 70px;
+.left-1\/2 {
+  left: 50%;
 }
 
-.mt-\[\] {
-  margin-top: ;
+.top-1\/2 {
+  top: 50%;
 }
 
-.mt-\[152px\] {
-  margin-top: 152px;
-}
-
-.mt-\[64px\] {
-  margin-top: 64px;
+.z-30 {
+  z-index: 30;
 }
 
 .mt-\[23px\] {
   margin-top: 23px;
 }
 
+.mt-\[250px\] {
+  margin-top: 250px;
+}
+
+.mt-\[64px\] {
+  margin-top: 64px;
+}
+
+.mt-\[150p\] {
+  margin-top: 150p;
+}
+
+.mt-\[150px\] {
+  margin-top: 150px;
+}
+
+.mt-\[130px\] {
+  margin-top: 130px;
+}
+
+.mt-\[120px\] {
+  margin-top: 120px;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.h-3 {
+  height: 0.75rem;
 }
 
 .h-\[100vh\] {
   height: 100vh;
 }
 
+.h-\[42\] {
+  height: 42;
+}
+
+.h-\[42px\] {
+  height: 42px;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
+.h-\[159\] {
+  height: 159;
+}
+
+.h-\[159px\] {
+  height: 159px;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
 .w-\[100vw\] {
   width: 100vw;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-\[42\] {
+  width: 42;
+}
+
+.w-\[42px\] {
+  width: 42px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[282px\] {
+  width: 282px;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col {
@@ -633,6 +763,16 @@ video {
   row-gap: 0.5rem;
 }
 
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -644,6 +784,14 @@ video {
 .bg-\[\#D9D9D9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(217 217 217 / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .px-\[23px\] {
@@ -672,6 +820,41 @@ video {
   font-size: 40px;
 }
 
+.text-\[100px\] {
+  font-size: 100px;
+}
+
+.text-\[120px\] {
+  font-size: 120px;
+}
+
+.text-\[130px\] {
+  font-size: 130px;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[80px\] {
+  font-size: 80px;
+}
+
+.text-\[60px\] {
+  font-size: 60px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .leading-\[270px\] {
   line-height: 270px;
 }
@@ -688,6 +871,42 @@ video {
   line-height: 80px;
 }
 
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[180px\] {
+  line-height: 180px;
+}
+
+.leading-\[200px\] {
+  line-height: 200px;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-\[50px\] {
+  line-height: 50px;
+}
+
+.leading-\[100px\] {
+  line-height: 100px;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-\[150px\] {
+  line-height: 150px;
+}
+
 .text-\[\#315BA2B5\] {
   color: #315BA2B5;
 }
@@ -695,4 +914,153 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+@media (min-width: 640px) {
+  .sm\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .sm\:mt-\[23px\] {
+    margin-top: 23px;
+  }
+
+  .sm\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .sm\:h-\[159px\] {
+    height: 159px;
+  }
+
+  .sm\:h-\[30px\] {
+    height: 30px;
+  }
+
+  .sm\:w-\[282px\] {
+    width: 282px;
+  }
+
+  .sm\:w-\[30px\] {
+    width: 30px;
+  }
+
+  .sm\:text-\[100px\] {
+    font-size: 100px;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:leading-10 {
+    line-height: 2.5rem;
+  }
+
+  .sm\:leading-\[200px\] {
+    line-height: 200px;
+  }
+
+  .sm\:leading-\[50px\] {
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text-\[130px\] {
+    font-size: 130px;
+  }
+
+  .md\:text-\[125px\] {
+    font-size: 125px;
+  }
+
+  .md\:leading-\[270px\] {
+    line-height: 270px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:mt-\[150px\] {
+    margin-top: 150px;
+  }
+
+  .lg\:mt-\[64px\] {
+    margin-top: 64px;
+  }
+
+  .lg\:mt-\[130px\] {
+    margin-top: 130px;
+  }
+
+  .lg\:mt-\[100px\] {
+    margin-top: 100px;
+  }
+
+  .lg\:mt-\[180px\] {
+    margin-top: 180px;
+  }
+
+  .lg\:mt-\[80px\] {
+    margin-top: 80px;
+  }
+
+  .lg\:mt-\[60px\] {
+    margin-top: 60px;
+  }
+
+  .lg\:h-\[42px\] {
+    height: 42px;
+  }
+
+  .lg\:w-\[42px\] {
+    width: 42px;
+  }
+
+  .lg\:text-\[160px\] {
+    font-size: 160px;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-\[32px\] {
+    font-size: 32px;
+  }
+
+  .lg\:leading-\[270px\] {
+    line-height: 270px;
+  }
+
+  .lg\:leading-\[80px\] {
+    line-height: 80px;
+  }
+
+  .lg\:leading-\[67px\] {
+    line-height: 67px;
+  }
+
+  .lg\:leading-\[54px\] {
+    line-height: 54px;
+  }
+}
+
+.rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
 }

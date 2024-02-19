@@ -13,8 +13,14 @@
 @layer components {
     .mainBackground{
         background: url("./image/coffee.jpg");
-        background-position: center ;
+        background-position:  0 -880px;
         background-size: cover;
         background-repeat: no-repeat;
-      }     
+      }
+      .mySlides {
+        display: none;
+      }
+      .active, .dot:hover {
+        background-color: #717171 !important;
+      }    
 }
