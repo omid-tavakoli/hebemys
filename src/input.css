@@ -12,25 +12,25 @@
 }
 @layer components {
     .item1{
-        background: url("./image/coffee.jpg");
+        background: url("./image/image1.jpg");
         background-position:  center;
         background-size: cover;
         background-repeat: no-repeat;
       }
       .item2{
-        background: url("./image/coffee2.jpg");
+        background: url("./image/image2.jpg");
         background-position:  center;
         background-size: cover;
         background-repeat: no-repeat;
       }
       .item3{
-        background: url("./image/coffee3.jpg");
+        background: url("./image/image3.jpg");
         background-position:  center;
         background-size: cover;
         background-repeat: no-repeat;
       }
       .item4{
-        background: url("./image/coffee4.jpg");
+        background: url("./image/image4.jpg");
         background-position:  center;
         background-size: cover;
         background-repeat: no-repeat;
