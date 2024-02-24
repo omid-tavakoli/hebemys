@@ -573,6 +573,36 @@ video {
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 480px) {
+  .item1{
+    background: url("./image/image04.jpg");
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .item2{
+    background: url("./image/image02.jpg");
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .item3{
+    background: url("./image/image03.jpg");
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .item4{
+    background: url("./image/image01.jpg");
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 .item4{
   background: url("./image/image4.jpg");
   background-position:  center;
@@ -632,28 +662,20 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mb-14 {
-  margin-bottom: 3.5rem;
-}
-
-.mt-\[100px\] {
-  margin-top: 100px;
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .mt-\[23px\] {
   margin-top: 23px;
 }
 
-.mt-\[80px\] {
-  margin-top: 80px;
-}
-
-.mt-\[\] {
-  margin-top: ;
-}
-
 .mt-\[60px\] {
   margin-top: 60px;
+}
+
+.mt-\[70px\] {
+  margin-top: 70px;
 }
 
 .block {
@@ -684,12 +706,16 @@ video {
   height: 1.25rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-\[100vh\] {
   height: 100vh;
 }
 
-.h-6 {
-  height: 1.5rem;
+.h-full {
+  height: 100%;
 }
 
 .w-10 {
@@ -708,16 +734,16 @@ video {
   width: 1.25rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .w-\[100vw\] {
   width: 100vw;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .-translate-x-1\/2 {
@@ -776,12 +802,6 @@ video {
 
 .gap-y-4 {
   row-gap: 1rem;
-}
-
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -844,10 +864,6 @@ video {
   line-height: 80px;
 }
 
-.tracking-tighter {
-  letter-spacing: -0.05em;
-}
-
 .tracking-tight {
   letter-spacing: -0.025em;
 }
@@ -869,6 +885,10 @@ video {
 @media (min-width: 640px) {
   .sm\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .sm\:mb-14 {
+    margin-bottom: 3.5rem;
   }
 
   .sm\:mt-12 {
@@ -989,10 +1009,6 @@ video {
 
   .lg\:text-\[32px\] {
     font-size: 32px;
-  }
-
-  .lg\:leading-\[42px\] {
-    line-height: 42px;
   }
 
   .lg\:leading-\[50px\] {
