@@ -573,41 +573,36 @@ video {
   background-repeat: no-repeat;
 }
 
+.item4{
+  background: url("./image/image4.jpg") ;
+  background-position:  center ;
+  background-size: cover ;
+}
+
 @media screen and (max-width: 480px) {
   .item1{
-    background: url("./image/image04.jpg");
-    background-position:  center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("./image/image04.jpg") ;
+    background-position:  center ;
+    background-size: cover ;
   }
 
   .item2{
-    background: url("./image/image02.jpg");
-    background-position:  center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("./image/image02.jpg") ;
+    background-position:  center ;
+    background-size: cover ;
   }
 
   .item3{
-    background: url("./image/image03.jpg");
-    background-position:  center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("./image/image03.jpg") ;
+    background-position:  center ;
+    background-size: cover ;
   }
 
   .item4{
-    background: url("./image/image01.jpg");
-    background-position:  center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("./image/image01.jpg") ;
+    background-position:  center ;
+    background-size: cover ;
   }
-}
-
-.item4{
-  background: url("./image/image4.jpg");
-  background-position:  center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .mySlides {
@@ -674,8 +669,8 @@ video {
   margin-top: 60px;
 }
 
-.mt-\[70px\] {
-  margin-top: 70px;
+.mt-\[65px\] {
+  margin-top: 65px;
 }
 
 .block {
@@ -694,28 +689,20 @@ video {
   height: 2.5rem;
 }
 
-.h-3 {
-  height: 0.75rem;
+.h-28 {
+  height: 7rem;
 }
 
-.h-32 {
-  height: 8rem;
+.h-3 {
+  height: 0.75rem;
 }
 
 .h-5 {
   height: 1.25rem;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
 .h-\[100vh\] {
   height: 100vh;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .w-10 {
@@ -726,16 +713,12 @@ video {
   width: 0.75rem;
 }
 
-.w-48 {
-  width: 12rem;
+.w-40 {
+  width: 10rem;
 }
 
 .w-5 {
   width: 1.25rem;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .w-\[100vw\] {

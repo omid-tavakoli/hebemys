@@ -29,38 +29,33 @@
         background-size: cover;
         background-repeat: no-repeat;
       }
+      .item4{
+        background: url("./image/image4.jpg") ; 
+        background-position:  center ;
+        background-size: cover ;
+      }
       @media screen and (max-width: 480px) {
         .item1{
-          background: url("./image/image04.jpg");
-          background-position:  center;
-          background-size: cover;
-          background-repeat: no-repeat;
+          background: url("./image/image04.jpg") ;
+          background-position:  center ;
+          background-size: cover ;
         }
         .item2{
-          background: url("./image/image02.jpg");
-          background-position:  center;
-          background-size: cover;
-          background-repeat: no-repeat;
+          background: url("./image/image02.jpg") ;
+          background-position:  center ;
+          background-size: cover ;
         }
         .item3{
-          background: url("./image/image03.jpg");
-          background-position:  center;
-          background-size: cover;
-          background-repeat: no-repeat;
+          background: url("./image/image03.jpg") ;
+          background-position:  center ;
+          background-size: cover ;
         }
         .item4{
-          background: url("./image/image01.jpg");
-          background-position:  center;
-          background-size: cover;
-          background-repeat: no-repeat;
+          background: url("./image/image01.jpg") ;
+          background-position:  center ;
+          background-size: cover ;
         }
-      }      
-      .item4{
-        background: url("./image/image4.jpg");
-        background-position:  center;
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
+      }         
       .mySlides {
         display: none;
       }
