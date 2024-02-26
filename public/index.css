@@ -705,6 +705,14 @@ video {
   height: 100vh;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -727,6 +735,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .-translate-x-1\/2 {
@@ -817,6 +833,11 @@ video {
   padding-right: 23px;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .font-IRANsans {
   font-family: IRANsans;
 }
@@ -833,6 +854,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
 }
 
 .leading-10 {
@@ -865,6 +890,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
 @media (min-width: 640px) {
   .sm\:mb-0 {
     margin-bottom: 0px;
@@ -894,6 +923,10 @@ video {
     height: 25px;
   }
 
+  .sm\:h-3 {
+    height: 0.75rem;
+  }
+
   .sm\:w-14 {
     width: 3.5rem;
   }
@@ -904,6 +937,15 @@ video {
 
   .sm\:w-\[282px\] {
     width: 282px;
+  }
+
+  .sm\:w-3 {
+    width: 0.75rem;
+  }
+
+  .sm\:px-\[23px\] {
+    padding-left: 23px;
+    padding-right: 23px;
   }
 
   .sm\:text-2xl {
@@ -923,6 +965,10 @@ video {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-\[60px\] {
+    font-size: 60px;
   }
 
   .sm\:leading-10 {
